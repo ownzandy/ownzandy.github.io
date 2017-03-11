@@ -1,10 +1,14 @@
 /*neutral*/
 * {
 	font-family: 'karla', sans-serif;
-}.footer,
+}
 .header {
 	background: #0680cd;
 	color: white;
+}
+.footer {
+	color:#000000;
+	
 }
 .ctas-button {
 	color: #444;
@@ -56,7 +60,7 @@ p.paragraph {
   color: rgba(0,0,0,.5);
 }
 .logo {
-  font-size: 30px;
+  font-size: 40px;
   line-height: 30px;
   font-weight: 900;
 }
@@ -107,6 +111,7 @@ p.paragraph {
 .vertical {
   flex-direction: column;
 }
+
 /*images*/
 .logo-aspectRatio{
 	height: auto !important;
@@ -163,6 +168,10 @@ p.paragraph {
 }
 .header .sidedevices {
 	margin: 60px 0 0
+}
+.header img{
+	width:35px;
+	height: auto;
 }
 @media (max-width: 900px) {
 	.header .sidedevices {
@@ -260,7 +269,12 @@ p.paragraph {
 		margin: 10px 0 0 0;
 	}
 }.footer {
+	border-top: 1px solid rgba(0,0,0,.1);
 	padding: 45px 0;
+}
+.footer img{
+	width: 50;
+	height:auto;
 }
 .footer .nav-link {
 	display: inline-block;
@@ -286,7 +300,7 @@ p.paragraph {
 	margin: 0 0 0 10px;
 }
 @media (max-width: 440px) {
-	.ctas-button,
+	.ctas-button,socialpro
 	.ctas-button-2 {
 		display: block;
 		width: 100%;
@@ -302,6 +316,11 @@ p.paragraph {
 .feature3 .emoji {
 	font-size: 55px;
 	color: black
+}
+.feature3 img{
+	height:60px;
+	width:auto;
+	margin-bottom: 10px;
 }
 @media (max-width: 750px) {
   .feature3 .emoji {
